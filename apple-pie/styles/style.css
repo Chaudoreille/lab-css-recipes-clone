@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+    padding: 0 5em;
+}
+
+body {
+    max-width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#recipe {
+    padding: 5rem;
+}
+
+#banner {
+    background-image: url(../images/apple-pie.jpg);
+    height: 40em;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#banner .page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    color: white;
+    font-size: 5em;
+}
+
+#description .description-text {
+    margin: 4rem auto;
+    width: 74%;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.recipe-info-img {
+    position: relative;
+    left: 50%;
+    translate: -50%;
+}
